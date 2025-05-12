@@ -4,7 +4,7 @@ int main() {
 
     char nome1[10] = "Descarga";
     char nome2[10] = "Etiquetagem";
-    char nome3[10] = "Conferencia";
+    char nome3[10] = "Conferência";
     char nome4[10] = "Guarda";
     int usuario;
     float Descarga = 1.11;
