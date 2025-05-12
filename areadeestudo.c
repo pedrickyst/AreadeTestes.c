@@ -2,24 +2,35 @@
 
 int main() {
 
-    char nome1[10] = "Descarga";
-    char nome2[10] = "Etiquetagem";
-    char nome3[10] = "Conferência";
-    char nome4[10] = "Guarda";
-    int usuario;
-    float Descarga = 1.11;
-    float Etiquetagem = 1.46;
-    float Conferencia = 0.55;
-    float Guarda = 2.50;
+    int entradaUsuario;
+    int soma;
+    float media;
 
-    printf("Digite o Número de PALETES: ");
-    scanf("%d", &usuario);
-    
-    printf("%s = %d %.2f\n", nome1, usuario * Descarga) % 60;
-    printf("%s = %d %.2f\n", nome2, usuario * Etiquetagem) % 60;
-    printf("%s = %d %.2f\n", nome3, usuario * Conferencia) % 60;
-    printf("%s = %d %.2f\n", nome4, usuario * Guarda) % 60;
-    
-    
+    char nome1[20] = "Paletes";
+    char nome2[20] = "Etiquetagem";
+    char nome3[20] = "Conferência";
+    char nome4[20] = "Guarda";
+ 
+    double paletes = 71;
+    double Etiquetagem = 106;
+    double Conferencia = 55;
+    double Guarda = 170;
+
+    printf("Digite o Números de Paletes recebidos: ");
+    scanf("%d", &entradaUsuario);
+
+    printf("\n");
+
+    media = (entradaUsuario * paletes) / 60;
+    printf("Descarregamento: %.2f\n", media);
+    media = (entradaUsuario * Etiquetagem) / 120;
+    printf("Etiquetagem: %.2f\n", media);
+    media = (entradaUsuario * Conferencia) / 60;
+    printf("Conferência: %.2f\n", media);
+    media = (entradaUsuario * Guarda) / 120;
+    printf("Guarda: %.2f\n", media);
+   
+
+
     return 0;
 }
