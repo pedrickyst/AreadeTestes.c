@@ -15,10 +15,10 @@ int main() {
     printf("Digite o Número de PALETES: ");
     scanf("%d", &usuario);
     
-    printf("%s = %d %f\n", nome1, usuario * Descarga) % 60;
-    printf("%s = %d %f\n", nome2, usuario * Etiquetagem) % 60;
-    printf("%s = %d %f\n", nome3, usuario * Conferencia) % 60;
-    printf("%s = %d %f\n", nome4, usuario * Guarda) % 60;
+    printf("%s = %d %.2f\n", nome1, usuario * Descarga) % 60;
+    printf("%s = %d %.2f\n", nome2, usuario * Etiquetagem) % 60;
+    printf("%s = %d %.2f\n", nome3, usuario * Conferencia) % 60;
+    printf("%s = %d %.2f\n", nome4, usuario * Guarda) % 60;
     
     
     return 0;
